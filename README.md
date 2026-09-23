@@ -7,6 +7,7 @@ The hyperfeminine cyberdeck community felt immediately relevant to me, not just 
 The vision behind this build is practical as much as it is aesthetic. As a DJ who co-organizes parties with my collective, one recurring gap has always been visuals. Good visuals are hard to come by, and bringing your own setup is often complicated. A fully functional computer built into a clutch bag that can connect to a beamer and run audio-reactive visuals on site felt like a solution that is also a statement. A computer in a handbag is, simply put, very badass.
 
 The project sits at the intersection of maker culture, DJ and party culture, and Cute Studies. The clutch is not just an enclosure. It is the concept.
+
 ---
 
 ## Implementation
