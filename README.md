@@ -1,6 +1,11 @@
 # Second Term Project: Building a cute whimsical Cyberdeck
 This project builds a small personal computer into a pink faux snakeskin clutch bag. The idea came from a growing online community of FLINTA, queer creators and allies who started building custom computers into vintage handbags and thrifted cases in early 2026. Where most consumer electronics are sealed, proprietary devices that hide their own inner workings and actively resist repair, these builders reclaim that knowledge by constructing their own machines from scratch. This project is part of that conversation. The computer runs on a Raspberry Pi 4 and includes a 5 inch touchscreen display, a wireless keyboard, and a custom-fabricated screen mount. It is also loosely connected to an academic paper written in the same semester that examines why cuteness works as a way of making tech spaces feel more accessible. The build is presented as a functional prototype and a milestone of an ongoing personal project.
 
+<div align="center">
+  <img src="img/clutch.jpg" width="500">
+  <p><em>The Daisy Dixon faux snakeskin clutch used as the enclosure</em></p>
+</div>
+
 ## Concept
 The hyperfeminine cyberdeck community felt immediately relevant to me, not just as a research subject but as a space I wanted to actively be part of. Building my own cyberdeck was a way of joining that conversation through making rather than just writing about it. This was also my first physical computing project, which made it both a technical challenge and a personal milestone.
 
@@ -11,10 +16,29 @@ The project sits at the intersection of maker culture, DJ and party culture, and
 ---
 
 ## Implementation
-The build centers around a Raspberry Pi 4 Model B running Raspberry Pi OS (64-bit), housed inside a Daisy Dixon faux snakeskin clutch bag, sourced secondhand from someone who only wanted the watch it came with.. The display is a Waveshare 5 inch capacitive touchscreen (800x480) connected via a short Micro-HDMI to HDMI ribbon cable, which was a genuine gamechanger for the build: standard cables are too bulky to fit cleanly inside a clutch, and finding flat ribbon cables in the right connector format made the entire assembly significantly more compact and manageable. Touch input is connected via a short USB ribbon cable. Input is handled by a mini wireless keyboard with integrated touchpad via a USB dongle. A custom screen mount fabricated from acrylic holds the display in place inside the clutch, with a 3D-printed version currently in production and awaiting delivery.
+The build centers around a Raspberry Pi 4 Model B running Raspberry Pi OS (64-bit), housed inside a Daisy Dixon faux snakeskin clutch bag, sourced secondhand from someone who only wanted the watch it came with.
+
+<div align="center">
+  <img src="img/materialien.png" width="600">
+  <p><em>Hardware components used in the build</em></p>
+</div>
+
+The display is a Waveshare 5 inch capacitive touchscreen (800x480) connected via a short Micro-HDMI to HDMI ribbon cable, which was a genuine gamechanger for the build: standard cables are too bulky to fit cleanly inside a clutch, and finding flat ribbon cables in the right connector format made the entire assembly significantly more compact and manageable. Touch input is connected via a short USB ribbon cable. Input is handled by a mini wireless keyboard with integrated touchpad via a USB dongle. A custom screen mount fabricated from acrylic holds the display in place inside the clutch, with a 3D-printed version currently in production and awaiting delivery.
+
+<div align="center">
+  <img src="img/removing-fabric-1.jpg" width="30%">
+  <img src="img/pi-installed.jpg" width="30%">
+  <img src="img/ribbon-installed.jpg" width="30%">
+  <p><em>Assembly process: preparing the clutch, mounting the Pi, and installing the ribbon cables</em></p>
+</div>
 
 The software setup includes VS Code for coding, Obsidian for note-taking, Pure Data for audio work, Git and GitHub for version control, and Chromium as the main browser. SuperTuxKart is also installed, because why not.
 Installing Open Frameworks turned out to be a major debugging problem, so I had to put it off until later. 
+
+<div align="center">
+  <img src="img/pi-software-installed.jpg" width="500">
+  <p><em>Software running on the Pi</em></p>
+</div>
 
 ### Project Reflection (Pi Zero 2 W Teil):
 
@@ -29,7 +53,19 @@ The final hardware setup has a Raspberry Pi 4 fully built into the faux snakeski
 
 On the software side, Raspberry Pi OS (64-bit) runs VS Code, GitHub (via SSH), Obsidian, Pure Data, and Chromium. Installing openFrameworks was attempted but did not work in the end, due to compatibility issues between the current Raspberry Pi OS version (Debian Trixie) and the build tools. This remains an open task for later.
 
+<div align="center">
+  <img src="img/cutch-installed-1.jpg" width="45%">
+  <img src="img/cutch-installed-2.jpg" width="45%">
+  <p><em>The finished build, fully installed in the clutch</em></p>
+</div>
+
 The custom mounts were designed in Blender using exact millimeter measurements to fit both the display and the Raspberry Pi and the inside of the clutch. It includes a small extruded name tag on the screen mount, and a repeating "ssss" pattern in a snake-like formation on the Pi mount, referencing the clutch's snakeskin texture. Since the 3D print had not arrived by the submission deadline, an acrylic version was made as a backup: cut and shaped by hand with a saw and a rotary tool with sanding attachments. Once the 3D print arrives, it will be sanded smooth and finished with chrome gel nail polish to match the look of the bag.
+
+<div align="center">
+  <img src="img/screen-halterung-blender.png" width="45%">
+  <img src="img/pi-halterung-blender.png" width="45%">
+  <p><em>Custom mounts designed in Blender: the screen mount (left) and the Pi mount (right), with the snakeskin-inspired "ssss" pattern</em></p>
+</div>
 
 --- 
 
