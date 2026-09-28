@@ -1,4 +1,5 @@
 # Second Term Project: Building a cute whimsical Cyberdeck
+Bonita Fiona von Gizycki
 
 <div align="center"><img src="img/deck.png" width="70%"><p><em>The finished Cute Cyberdeck open</em></p></div>
 
